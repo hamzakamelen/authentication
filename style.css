@@ -1,0 +1,67 @@
+body{
+    background-color: whitesmoke;
+    text-align: center;
+    align-items: center;
+    /* font-size: 50px; */
+}
+.head{
+    font-size: 100px;
+}
+input{
+    height: 30px;
+    font-size: 25px;
+    width: auto;
+
+}
+.btn2{
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    background-color: cornflowerblue;
+    font-size: 25px;
+    min-height: 50px;
+    color: whitesmoke;
+}
+.btn{
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    background-color: blue;
+    font-size: 25px;
+    min-height: 50px;
+    color: whitesmoke;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+form{
+    text-align: center;
+    align-items: center;
+}
+.main{
+    width: 50%;
+    text-align: center;
+}   
+.user{
+    color: cornflowerblue
+}
+#listUL{
+    color: blue; 
+    text-align: center !important; 
+    font-size: 35px;
+}
+#listUL span{
+    color: black;
+    margin-left: 75%;
+}
+li{
+    border-bottom: 2px black solid;
+}
+input::placeholder{
+    color: lightslategray;
+}
+.Paraafter{
+    display: none;
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
